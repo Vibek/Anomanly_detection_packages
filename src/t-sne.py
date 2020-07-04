@@ -127,11 +127,5 @@ sns.scatterplot(embedding_train[:,0], embedding_train[:,1], hue=yy_train, legend
 plt.xlabel("dimension-1")
 plt.ylabel("dimension-2")
 plt.show()
-'''
 
-plt.scatter(embedding_train[:, 0], embedding_train[:, 1], alpha=0.2, s=1, cmap='viridis')
-plt.xlabel("dimension-1")
-plt.ylabel("dimension-2")
-plt.show()
-'''
 
